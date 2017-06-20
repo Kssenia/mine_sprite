@@ -1,0 +1,327 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+  
+}
+a{
+  text-decoration: none;
+}
+p{
+  line-height: 1.5;
+  
+}
+img{
+  max-width: 100%;
+}
+/*a:focus{
+    
+    text-decoration:none;
+    outline:none;
+}
+a:hover,
+a:focus:hover{
+    /*color:#23527c;*/
+    text-decoration:underline;
+}*/
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+}
+h1{
+  font-size: 24px;
+  padding-top: 17px;
+  font-weight: bold;
+  padding-bottom: 22px;
+}
+h2{
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 22px;
+}
+h3{
+  font-size: 20px;
+  padding-top: 17px;
+  color: #fff;
+}
+.header_top {
+  background: #37a14c;
+}
+.container{
+  width: 985px;
+}
+
+.header_top p{
+  font-size: 16px;
+  color: #fff;
+  padding: 16px 0;
+
+}
+.soc_vk{
+ background: url('../images/header_vk.png') no-repeat 0 0;
+}
+
+.soc_fb{
+  background: url('../images/header_fb.png') no-repeat 0 0;
+}
+
+.flag{
+  background: url('../images/header_flag.png') no-repeat 0 0;
+}
+.logo_img{
+  background: url('../images/header_logo.png') no-repeat 0 0;
+}
+.soc_icon{
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+}
+.social_icon{
+  padding-top: 8px;
+}
+.logo{
+  width: 146px;
+  height: 96px;
+  display: inline-block;
+}
+
+.phone_right{
+  padding-right: 40px;
+}
+
+.btn{
+  background: linear-gradient(to bottom, #fdd008, #febb11);
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  border-bottom: 2px solid rgba(102, 102,51, 0.50);
+  border-top: 2px solid rgba(255, 255, 0, 0.50);
+  font-size: 16px;
+  text-align: center;
+  width: 135px;
+  height: 34px;
+ }
+.header_buton{
+  padding-top: 12px;
+  text-align: center;
+}
+.header_buton li{
+  padding-bottom: 12px;
+}
+.logo_title{
+  padding-top: 25px;
+  text-align: center;
+}
+.header_bottom{
+  background: linear-gradient(to bottom, #44bb5b, #309444);
+  }
+.menu ul li{
+  width: 190px;
+  height: 45px;
+  padding-top: 15px;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+}
+.menu ul li:last-child{
+  border-right:1px solid #57e974;
+  box-shadow: 0 0 1px rgba(36,118,52,0.5);
+}
+.menu li:hover{
+  background: linear-gradient(to top, #45d962, #2da145);
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+}
+.said_bar_red a{
+  color: #ff2626;
+  font-size: 16px; 
+  text-decoration: none;
+}
+.said_bar_red{
+  padding-bottom: 10px;
+  padding-left:19px;
+}
+
+.said_bar{
+  padding-top: 22px;
+}
+
+.nav-header{
+  font-size: 20px;
+  padding-bottom: 17px;
+}
+.nav>li>a{
+  padding: 17px 0px 17px;
+  border-top: 1px solid #e7e7e7;
+}
+
+.nav>li>a:last-child{
+border-bottom: 1px solid #e7e7e7;
+}
+
+.said_bar_black a{
+  font-size: 20px;
+  padding: 19px 0px;
+}
+
+a{
+  color:#000;
+}
+
+.content{
+  font-size: 14px;
+  text-align: justify;
+  padding-bottom: 37px;
+  padding-top: 15px;
+}
+
+.line{
+  background: #e7e7e7;
+  width: 726px;
+  height: 1px;
+  margin-bottom: 25px;
+}
+
+nav ul li{
+  border-left: 1px solid #57e974;
+  box-shadow: 0 0 1px rgba(36,118,52,0.5);
+}
+
+.min_block_botm{
+  border-top: 1px solid #247634;
+}
+.min_block_top{
+  background: linear-gradient(to bottom left, #45bc5c, #309444); 
+  height: 90px;
+  border-bottom: 1px solid #57e974;
+}
+
+.mini_block_main{
+  padding-bottom: 30px;
+}
+
+figcaption{
+  color: #fff;
+  font-size: 14px;
+
+}
+.min_block_top span{
+  font-weight: bold;
+  font-size: 14px;
+}
+
+figure{
+  padding-top: 12px;
+  padding-left: 15px;
+}
+
+.footer_yellow{
+  background: linear-gradient(to top, #fec50d, #f0b006);
+  padding-top: 15px;
+}
+
+.footer_yellow .contact p{
+  color:#000;
+}
+
+footer .contact{
+  padding-bottom: 12px;
+  color: #000;
+}
+
+.footer_green{
+  background: linear-gradient(to top, #45ba5b, #3d9b50);
+}
+.img_set{
+padding:9px 15px 9px 0px;
+}
+
+.footer_white p{
+  font-size: 14px;
+  color: #000;
+  padding-bottom: 22px;
+  padding-top: 22px;
+ } 
+
+.mini_block_main{
+  padding-bottom: 30px;
+}
+
+.contact a{
+  float: right;
+  text-decoration: none;
+  color: inherit; 
+}
+
+.contact .skype_link {
+    color: #1200ff;
+    font-style: italic;
+    min-width: 128px;
+}
+
+.contact p {
+  font-size: 16px;
+  color: #317530 ;
+}
+
+.contact p:nth-child(3) a {
+  min-width: 128px;
+}
+
+.contact p span{
+  color: #000;
+}
+
+.contact span:after{  
+  display: inline-block;
+  content: ""; 
+  height: 20px;
+  width: 23px;
+  background: url('../images/header_ikon_skype.png') no-repeat 0 0;
+  clear: both;
+}
