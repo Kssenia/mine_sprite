@@ -125,6 +125,10 @@ h3{
   width: 146px;
   height: 96px;
   display: inline-block;
+  padding-top: 14px;
+}
+.contact{
+  padding-top: 11px;
 }
 
 .phone_right{
@@ -143,6 +147,12 @@ h3{
   width: 135px;
   height: 34px;
  }
+ .btn .btn-warning a:hover{
+  background: ##f0ad4e;
+ }
+ .btn-warning{
+  border-color:none;
+ }
 .header_buton{
   padding-top: 12px;
   text-align: center;
@@ -157,14 +167,20 @@ h3{
 .header_bottom{
   background: linear-gradient(to bottom, #44bb5b, #309444);
   }
-.menu ul li{
-  width: 190px;
-  height: 45px;
-  padding-top: 15px;
-  display: inline-block;
-  text-align: center;
+  .menu ul{
+    display: table;
+  }
+  .menu li{
+  display: table-cell;
+  }
+.menu li a{
+  display: block;
+  text-decoration: none;
   color: #fff;
+  padding: 16px 57px;
+  font-weight: bold;
 }
+
 .menu ul li:last-child{
   border-right:1px solid #57e974;
   box-shadow: 0 0 1px rgba(36,118,52,0.5);
@@ -173,10 +189,6 @@ h3{
   background: linear-gradient(to top, #45d962, #2da145);
 }
 
-.menu a {
-  text-decoration: none;
-  color: #fff;
-}
 .said_bar_red a{
   color: #ff2626;
   font-size: 16px; 
@@ -317,11 +329,52 @@ padding:9px 15px 9px 0px;
   color: #000;
 }
 
-.contact span:after{  
+/*.contact span:after{  
   display: inline-block;
   content: ""; 
   height: 20px;
   width: 23px;
   background: url('../images/header_ikon_skype.png') no-repeat 0 0;
   clear: both;
+   margin-left: 10px;
+}*/
+
+.contact span:after{  
+  display: inline-block;
+  content: ""; 
+  height: 17px;
+  width: 16px;
+  background: url('../images/sprite_soc_icon.png') no-repeat left top;
+  /*margin-left: 10px;*/
+  /*bac/kground-position: -37px 0;*/
+  
+  background-position: 0 -30px;
+}
+a.skype_link{
+  position: relative;
+  display: inline-block;
+}
+
+.social a{
+  display: block;
+  width: 28px;
+  height: 28px;
+  background: url('../images/sprite_soc_icon.png') no-repeat left top;
+ 
+}
+.social li{
+  display: inline-block;
+}
+.social{
+  padding-top: 7px;
+}
+
+.social li .fb{
+background-position: -30px 0;
+}
+.social li .gp{
+background-position: -60px 0;
+}
+.min_bloc_bott{
+  padding-bottom: 30px;
 }
